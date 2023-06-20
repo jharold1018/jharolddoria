@@ -1,0 +1,10 @@
+pseudocodigo
+   inicio
+     escriba ("suena la alarma")
+     escriba ("hacer la comida")
+     escriba ("comer")
+     escriba ("bañarme alistarme")
+     escriba ("agarrar el bolso")
+     escriba ("salir de la casa")
+     escriba ("agarrar la moto hasta el terminal")
+     escriba.("esperar la buceta me lleva al CBC") 

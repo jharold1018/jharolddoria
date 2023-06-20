@@ -1,0 +1,134 @@
+
+body {
+background-image: url(img.jpg);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.borde1 {
+    background-color: rgba(128, 128, 128, 0.411);
+    transform: translate(-50%, -50% );
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-color: blue;
+    border-radius: 5%;
+}
+.borde2 {
+    background-color: rgba(128, 128, 128, 0.411);
+    transform: translate(-50%, -50% );
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-color: red;
+    border-radius: 5%;
+}
+.borde3 {
+    background-color: rgba(128, 128, 128, 0.411);
+    transform: translate(-50%, -50% );
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-color: blueviolet;
+    border-radius: 5%;
+}
+.borde4 {
+    background-color: rgba(128, 128, 128, 0.411);
+    transform: translate(-50%, -50% );
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-color: gold;
+    border-radius: 5%;
+}
+.borde5 {
+    background-color: rgba(128, 128, 128, 0.411);
+    transform: translate(-50%, -50% );
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-color: orange;
+    border-radius: 5%;
+
+}
+.borde6{
+    background-color: rgba(128, 128, 128, 0.411);
+
+    border-color: fuchsia;
+    border-radius: 5%;
+
+}
+.border7{
+    background-color: rgba(128, 128, 128, 0.411);
+    transform: translate(-50%, -50% );
+    border-color: rgb(6, 139, 248);
+    border-radius: 5%;
+}
+.boton1{
+    border-color: blue;
+    border-radius: 4%;
+    text-decoration: black;
+}
+.boton2{
+    border-color: blue;
+    border-radius: 4%;
+    text-decoration: black;
+}
+.letras1{
+    text-decoration: underline;
+    top: 20%;
+    left: 40%;
+    position: absolute;
+}
+.redes{
+    top: 50%;
+    left: 10px;
+    position: absolute;
+}
+.botones {
+   display: block; 
+}
+.letras2{
+    text-decoration: underline;
+    top: 20%;
+    left: 40%;
+    position: absolute;
+}
+input[type=text],[type=tel],[type=email],[type=password] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid blueviolet;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(img.jpg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    transition: width 0,4s-ease-in-out ;
+}
+input[type=tel]:focus {
+    width: 100%;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+input[type=password]:focus {
+    width: 100%;
+}
+
+input[type=email]:focus {
+    width: 100%;
+}
+@media (max-width:600px) {
+    body{
+
+    }
+}
+
+@media (min-width:600px) {
+    body {
+        
+    }
+}
